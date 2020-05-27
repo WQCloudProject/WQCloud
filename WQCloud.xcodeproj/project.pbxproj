@@ -3,29 +3,43 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		985A4CFC53179D9F493E2D60 /* Pods_WQCloud.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FA9B281CFE61EB564609B66 /* Pods_WQCloud.framework */; };
 		A06B0C7D247B751100FC6863 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A06B0C7C247B751100FC6863 /* AppDelegate.swift */; };
-		A06B0C7F247B751100FC6863 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A06B0C7E247B751100FC6863 /* SceneDelegate.swift */; };
-		A06B0C81247B751100FC6863 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A06B0C80247B751100FC6863 /* ViewController.swift */; };
-		A06B0C84247B751100FC6863 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A06B0C82247B751100FC6863 /* Main.storyboard */; };
 		A06B0C86247B751200FC6863 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A06B0C85247B751200FC6863 /* Assets.xcassets */; };
 		A06B0C89247B751200FC6863 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A06B0C87247B751200FC6863 /* LaunchScreen.storyboard */; };
+		A06B0C99247C0D5200FC6863 /* WQBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A06B0C98247C0D5200FC6863 /* WQBaseViewController.swift */; };
+		A06B0CBD247C12F300FC6863 /* WQCustomTabbarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A06B0CBC247C12F300FC6863 /* WQCustomTabbarController.swift */; };
+		A06B0CC0247CB1AC00FC6863 /* WQCustomTabbarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A06B0CBF247CB1AC00FC6863 /* WQCustomTabbarView.swift */; };
+		A06B0CC2247CB20600FC6863 /* WQBadgeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A06B0CC1247CB20600FC6863 /* WQBadgeView.swift */; };
+		A06B0CC4247CB3C400FC6863 /* WQColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A06B0CC3247CB3C400FC6863 /* WQColor.swift */; };
+		A06B0CC6247CB3F000FC6863 /* WQSizeFit.swift in Sources */ = {isa = PBXBuildFile; fileRef = A06B0CC5247CB3F000FC6863 /* WQSizeFit.swift */; };
+		A06B0CD2247CB88D00FC6863 /* SPButton.m in Sources */ = {isa = PBXBuildFile; fileRef = A06B0CD1247CB88D00FC6863 /* SPButton.m */; };
+		A06B0CD5247CCDFF00FC6863 /* WQBaseNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A06B0CD4247CCDFF00FC6863 /* WQBaseNavigationController.swift */; };
+		A06B0CD7247CD69100FC6863 /* WQMineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A06B0CD6247CD69100FC6863 /* WQMineViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		7FA9B281CFE61EB564609B66 /* Pods_WQCloud.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WQCloud.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A06B0C79247B751100FC6863 /* WQCloud.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WQCloud.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A06B0C7C247B751100FC6863 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A06B0C7E247B751100FC6863 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		A06B0C80247B751100FC6863 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		A06B0C83247B751100FC6863 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A06B0C85247B751200FC6863 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A06B0C88247B751200FC6863 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A06B0C8A247B751200FC6863 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A06B0C98247C0D5200FC6863 /* WQBaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WQBaseViewController.swift; sourceTree = "<group>"; };
+		A06B0CBC247C12F300FC6863 /* WQCustomTabbarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WQCustomTabbarController.swift; sourceTree = "<group>"; };
+		A06B0CBF247CB1AC00FC6863 /* WQCustomTabbarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WQCustomTabbarView.swift; sourceTree = "<group>"; };
+		A06B0CC1247CB20600FC6863 /* WQBadgeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WQBadgeView.swift; sourceTree = "<group>"; };
+		A06B0CC3247CB3C400FC6863 /* WQColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WQColor.swift; sourceTree = "<group>"; };
+		A06B0CC5247CB3F000FC6863 /* WQSizeFit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WQSizeFit.swift; sourceTree = "<group>"; };
+		A06B0CCE247CB5E700FC6863 /* WQCloud-bridging-header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WQCloud-bridging-header.h"; sourceTree = "<group>"; };
+		A06B0CD0247CB88D00FC6863 /* SPButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPButton.h; sourceTree = "<group>"; };
+		A06B0CD1247CB88D00FC6863 /* SPButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPButton.m; sourceTree = "<group>"; };
+		A06B0CD4247CCDFF00FC6863 /* WQBaseNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WQBaseNavigationController.swift; sourceTree = "<group>"; };
+		A06B0CD6247CD69100FC6863 /* WQMineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WQMineViewController.swift; sourceTree = "<group>"; };
 		C0C3AF6AD9A47CD76040238E /* Pods-WQCloud.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WQCloud.release.xcconfig"; path = "Target Support Files/Pods-WQCloud/Pods-WQCloud.release.xcconfig"; sourceTree = "<group>"; };
 		F4FD5D99F65AC7A578176145 /* Pods-WQCloud.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WQCloud.debug.xcconfig"; path = "Target Support Files/Pods-WQCloud/Pods-WQCloud.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -56,7 +70,6 @@
 				F4FD5D99F65AC7A578176145 /* Pods-WQCloud.debug.xcconfig */,
 				C0C3AF6AD9A47CD76040238E /* Pods-WQCloud.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -81,15 +94,135 @@
 		A06B0C7B247B751100FC6863 /* WQCloud */ = {
 			isa = PBXGroup;
 			children = (
+				A06B0CCC247CB5A200FC6863 /* Utility */,
+				A06B0CC7247CB53B00FC6863 /* ThirdParty */,
+				A06B0C90247C0A0700FC6863 /* Modules */,
 				A06B0C7C247B751100FC6863 /* AppDelegate.swift */,
-				A06B0C7E247B751100FC6863 /* SceneDelegate.swift */,
-				A06B0C80247B751100FC6863 /* ViewController.swift */,
-				A06B0C82247B751100FC6863 /* Main.storyboard */,
+				A06B0CCE247CB5E700FC6863 /* WQCloud-bridging-header.h */,
 				A06B0C85247B751200FC6863 /* Assets.xcassets */,
 				A06B0C87247B751200FC6863 /* LaunchScreen.storyboard */,
 				A06B0C8A247B751200FC6863 /* Info.plist */,
 			);
 			path = WQCloud;
+			sourceTree = "<group>";
+		};
+		A06B0C90247C0A0700FC6863 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				A06B0CD8247CD6B700FC6863 /* Mine(我的) */,
+				A06B0C95247C0A3900FC6863 /* Base */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		A06B0C91247C0A0700FC6863 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		A06B0C92247C0A0700FC6863 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A06B0CD6247CD69100FC6863 /* WQMineViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		A06B0C93247C0A0700FC6863 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A06B0C94247C0A0700FC6863 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A06B0C95247C0A3900FC6863 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				A06B0C98247C0D5200FC6863 /* WQBaseViewController.swift */,
+				A06B0CD4247CCDFF00FC6863 /* WQBaseNavigationController.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		A06B0C96247C0A4900FC6863 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				A06B0CC3247CB3C400FC6863 /* WQColor.swift */,
+				A06B0CC5247CB3F000FC6863 /* WQSizeFit.swift */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		A06B0C97247C0A5200FC6863 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		A06B0CBE247CB12B00FC6863 /* CustomTabbar */ = {
+			isa = PBXGroup;
+			children = (
+				A06B0CBC247C12F300FC6863 /* WQCustomTabbarController.swift */,
+				A06B0CBF247CB1AC00FC6863 /* WQCustomTabbarView.swift */,
+				A06B0CC1247CB20600FC6863 /* WQBadgeView.swift */,
+			);
+			path = CustomTabbar;
+			sourceTree = "<group>";
+		};
+		A06B0CC7247CB53B00FC6863 /* ThirdParty */ = {
+			isa = PBXGroup;
+			children = (
+				A06B0CCF247CB88500FC6863 /* New Group */,
+			);
+			path = ThirdParty;
+			sourceTree = "<group>";
+		};
+		A06B0CCC247CB5A200FC6863 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				A06B0CD3247CB8C400FC6863 /* CustomComponent */,
+				A06B0C97247C0A5200FC6863 /* Extension */,
+				A06B0C96247C0A4900FC6863 /* Tools */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		A06B0CCF247CB88500FC6863 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				A06B0CD0247CB88D00FC6863 /* SPButton.h */,
+				A06B0CD1247CB88D00FC6863 /* SPButton.m */,
+			);
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		A06B0CD3247CB8C400FC6863 /* CustomComponent */ = {
+			isa = PBXGroup;
+			children = (
+				A06B0CBE247CB12B00FC6863 /* CustomTabbar */,
+			);
+			path = CustomComponent;
+			sourceTree = "<group>";
+		};
+		A06B0CD8247CD6B700FC6863 /* Mine(我的) */ = {
+			isa = PBXGroup;
+			children = (
+				A06B0C91247C0A0700FC6863 /* ViewModel */,
+				A06B0C92247C0A0700FC6863 /* Controller */,
+				A06B0C93247C0A0700FC6863 /* Model */,
+				A06B0C94247C0A0700FC6863 /* View */,
+			);
+			path = "Mine(我的)";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -154,7 +287,6 @@
 			files = (
 				A06B0C89247B751200FC6863 /* LaunchScreen.storyboard in Resources */,
 				A06B0C86247B751200FC6863 /* Assets.xcassets in Resources */,
-				A06B0C84247B751100FC6863 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -207,23 +339,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A06B0C81247B751100FC6863 /* ViewController.swift in Sources */,
+				A06B0CD5247CCDFF00FC6863 /* WQBaseNavigationController.swift in Sources */,
+				A06B0CC2247CB20600FC6863 /* WQBadgeView.swift in Sources */,
+				A06B0CC4247CB3C400FC6863 /* WQColor.swift in Sources */,
 				A06B0C7D247B751100FC6863 /* AppDelegate.swift in Sources */,
-				A06B0C7F247B751100FC6863 /* SceneDelegate.swift in Sources */,
+				A06B0CC0247CB1AC00FC6863 /* WQCustomTabbarView.swift in Sources */,
+				A06B0CD2247CB88D00FC6863 /* SPButton.m in Sources */,
+				A06B0CBD247C12F300FC6863 /* WQCustomTabbarController.swift in Sources */,
+				A06B0CD7247CD69100FC6863 /* WQMineViewController.swift in Sources */,
+				A06B0CC6247CB3F000FC6863 /* WQSizeFit.swift in Sources */,
+				A06B0C99247C0D5200FC6863 /* WQBaseViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		A06B0C82247B751100FC6863 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A06B0C83247B751100FC6863 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		A06B0C87247B751200FC6863 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -361,10 +492,25 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					"\"FileManagerModule\"",
+					"-framework",
+					"\"MessageModule\"",
+					"-framework",
+					"\"SnapKit\"",
+					"-framework",
+					"\"WQCTMediator\"",
+					"-framework",
+					"\"WQCTMediator_Extension\"",
+					"-ObjC",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = cwq.WQCloud;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/$(PROJECT_NAME)/WQCloud-bridging-header.h";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -380,10 +526,25 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					"\"FileManagerModule\"",
+					"-framework",
+					"\"MessageModule\"",
+					"-framework",
+					"\"SnapKit\"",
+					"-framework",
+					"\"WQCTMediator\"",
+					"-framework",
+					"\"WQCTMediator_Extension\"",
+					"-ObjC",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = cwq.WQCloud;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/$(PROJECT_NAME)/WQCloud-bridging-header.h";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

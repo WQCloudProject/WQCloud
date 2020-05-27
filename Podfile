@@ -9,4 +9,8 @@ use_frameworks!
 
 pod 'SnapKit'
 
+pod 'WQCTMediator'
+pod 'WQCTMediator_Extension'
+pod 'MessageModule'
+pod 'FileManagerModule'
 end
